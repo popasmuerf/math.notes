@@ -1,0 +1,51 @@
+https://fgiesen.wordpress.com/2012/02/12/row-major-vs-column-major-row-vectors-vs-column-vectors/
+
+
+Row major vs. column major, row vectors vs. column vectors
+===========================================================
+
+Row-major vs. column-major is just a storage order thing and doesnt have anything
+to do with what kind of vector you use.
+However graphics programmers tend to be exposed either GL or D3D
+	Tech	Strorage method
+	----	---------------
+	GL		column-major and column vector
+	D3D		row-major and row vector
+
+^^^Often graphics devs tend to think these two are tied togethor....
+but they actually are not
+
+
+
+Row/column major
+===========================================================
+There's no disagreement about how plain arrays are stored in memory:
+Any programming language that supports a plain (not associateve) array
+type just stores the elements sequentially.  Once a language supports
+multi-dimnetional arrays however, it needs to decides on how to squeeze
+the 2D arrangement of data into a 1D arrangement in memory, typically 
+1D array.  ONce calssical use case for multidimensional arrays are
+matrices:
+
+Given a Matrix A = a11 a12 a13
+				   a21 a22 a23
+
+There's a two "canonical" ways to stroe it in memory
+(discounting fancier storage schemes such as tiled or Morton-order storage)
+
+* row-major
+------------------------------------------------------------
+Storage traverses the matrix by rows, then within each row, then
+whithin each row enumerates the columns.  So the Matrix A would be stored in
+memory as 
+a11, a12, a13, a14,.....a21, a22 ,a23....aRC
+
+* col-major
+------------------------------------------------------------
+Storage traverses the matrix by columns, then within each row, then
+whithin each row enumerates the columns.  So the Matrix A would be stored in
+memory as 
+a11, a12, a13, a14,.....a21, a22 ,a23....aRC
+
+
+

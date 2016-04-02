@@ -1,0 +1,138 @@
+Grabbing Spome Basic Statistical Jargon
+=======================================
+071033.007.0701
+
+Mean(Average)
+=============================
+The mean, also known as "the average" is the most common statistic used to measure the center
+, or middle, of a numberial data set.  The mean is the sum of all the numbers 
+divided by the total number of numbers.  The mean of the entire population is called the:
+
+	population mean
+
+and the mean of a sample is called:
+
+	sample mean
+
+
+
+
+Median
+=============================
+Another way to measure the center of a numerical
+data set.  The median is exactly that...the middle...
+it is important to understand...that the average or the mean...
+is not the center...necessarily.....in a numerical data set, the median
+is the point at wich there there are an equal number of data points
+whose values lie above  and below the median value.
+
+If you are only given the average...ask for the median also..it's important!!!
+The average and the median are two different representations of the 
+middle ofa data set and can often give two very different stories aobut
+the data, especially when the dat set contains ouliers(very large or small numbers
+that are not typical)
+
+
+Standard devitions:
+===============================
+The standard deviation is a measurement in statistics used for the amont of
+variability (or spread) among the numbers in a data set....as the term implies, a
+standard deviation is a standard (or typical) amount of deviation(or distance)
+from the average(or mean) so the standard deviation bascialy means how far
+from the average are you ?
+
+The forumula for standard deviation is:
+
+ s = sqrt(summation((x - mean)^2)/(n-1))
+ /*in C++*/
+double summation(double value,prev_sum){
+ 	double sum = 0.0 ;
+ 	sum = prev_sum + value 
+ 	return sum 
+ }
+ /*In D*/
+ double summation(double value,prev_sum){
+ 	double sum = 0.0 ;
+ 	sum = prev_sum + value 
+ 	return sum 
+ }
+ double = math.sqrt(summation(sqrt(x - mean))/(n - 1))
+
+
+ Standard Deviation(S.D) is also used to describe where most of the data should
+ fall, in a relatie sense, compared to the average
+ For example...if you data have the form of a bell-shaped curve
+ (also known as standard distribution, about 95% of the data lie with two standard
+ deviations of the mean)
+
+ S.D. is important because it tales the whole story..or helps tell it.
+ simply stating that the average scores of class is 95%...without knowing what
+ the actual spread of grades are....
+
+
+ Percentile
+ ===============================
+ The score is the percentage of values in the data set that fall below that
+ certain score.
+ For example:
+ If I score in the 90% percentile, then that means 90% of others tested
+ scored lower than I.  The median is right in the middle of a data set,
+ so it represnets the 50th percentil.
+
+ Percentiles are used to compare relative standing.
+
+
+ Standard Code
+ ================================
+ The standard score is a slick ay to put results in prespective without having to provide
+ a lot of details.....which of course the media loves.
+The standard score represents the number of standard deviations
+above or below the mean(whithout caring what tha standard deviation or mean actually are)
+
+
+For example, I score "400" on the test.  But this score alone is meaningless...
+as it has no accompanying context.  However if I tell you that not only my score is
+400 but has a standard score of +2, then you can now rest easy in the knowledge that my score is
+2 standard deviations above the mean.......conversely....posessing a standard score of of 
+-2 would denote that I am 2 standard deviations behind the median
+
+The process of taking a number and converting it to a standard score is called "standardizing" 
+
+
+
+Distribution and normal distribution
+======================================
+The distribution of a data set is also known as
+the population.  It is a listing or fucntion showing
+all the possible values (or intervals) of the data
+and how ofthen they occur.
+
+When the distribution is of categorical scale, the data is
+organized as a number or precentage ofincidviduals in each groups
+
+
+When a distributin of numberical data is organized, they often ordered form samlledt to 
+larget, broken into reasonably sized groups(if appropiate), and the put into graphs and charts
+to examine the shape, center, and amount of variablility in the data
+
+Normal Distribution(bell curve)
+---------------------------------
+Consists of continuous data that numerical.
+A normal Distribution known as a Z- Distribution
+of standard deviation of 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

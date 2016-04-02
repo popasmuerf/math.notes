@@ -1,0 +1,171 @@
+
+
+Statistics basics
+===========================
+* Some stats are:
+	-vague
+	-innapropiate
+	-plain wrong
+
+
+Designing Appropiate Studies
+============================
+*Studies are done based on a question that needs to be answered (A Hypothesis test)
+*The design of the study is just as important as it's results
+*A flawed design leads to flawed results
+* Good and credible experiments 
+
+
+Types of Studies
+==============================
+Observational:
+-data is collected on individuals without directly affecting them
+-most common form is the "survey" where questionairs are sent/presented
+to populations of interest
+-Takes many different forms from paper forms to web forms, to call-in-polls
+-Prone to providing bogus results resulting from inappropiate questioning
+
+Experiments:
+-Imposes one or more treatments on the participants in such
+a way that clear and concise comparisons can be made
+-Good and credible experiments are designed to:
+	*Minimize bias
+	*Collect lots of good data
+-Promblems regarding experiment related studies are:
+	*researchers/subjects knowning in advance their treatment
+	*factors beyond the controll of the study that affect outcumes
+	*lack of a control group which leaves no baseline to compare results
+-Correctly designed experimental studies establish clear cause and effect relationship via varying
+responses to the treatment between the control and treatment groups(assuming that the difference is 
+statistically significant...meaning that outcomes are less a product of chance)
+
+
+Collecting quality Data
+================================
+After a study has been designed , be it a aruvey or an experiment, the individuals
+who will particpate have to be selected, and process must be in placd to 
+collect the data.  this pahse of the process is critical to producing credible dta int
+the end
+
+
+Selecting decent samples
+===============================
+*"Garbage in == Garbage out":
+	-Biased selection of subjects then the results will be biased and thus inaddmissable
+*subjects should be a cross-section of any given population
+*randomization provides a decent cross-section of subjects
+*questions of ethics come into play when selecting cross-sections as any study is subjecting your
+subjects to treatment.  There are ways to deal with this.
+
+Creating Effective Summaries
+================================
+After collection good data, the next step is to summarize them to 
+get a handle on the big picture.  Statisticians
+describe data in two major ways:
+	1. Numbers(descriptive statistics)
+	2. Pictures(charts, graphs)
+
+Descriptive statistics
+==================================
+Descriptive statistics are numbers that describe a data set in terms of its
+important features:
+	1. If the data is categorical(where individuals are placed into groups)
+		they are typically summarized using the number
+		of individuals in each groups(called the frequency) or the precentage of
+		individuals  in each group or the percentae of indiviuals in each
+		group (called the relative frequency)
+	2. Numerical data represents measurements or counts, where the actual
+		numbers have meaning(such as height or weight).  Numerical data, allows
+		for more features that can be summarized besides the number or prercentage in each group:
+			* Measures of center(where is the "middle")
+			* Measures of spread(how diverse or how concentrated ais the data arnoud the center?)
+			* If appropiate, numbes that easure the relationship between two variabls(such as height and weight)
+
+
+Determining Distributions
+==================================
+A variable is a characteristic that's being:
+	*Counted
+	*measured
+	*catgorized
+A distribution is a lising of the possible values of a variable(intervals of values)
+and how often (or at what density) they occur
+
+Example:
+	The dist. of gender at birth in the United Stages has been est. at:
+		52.4% maile
+		47.6.% female
+Different types of dist. exist for different type of variables
+The most commonly occuring distributions in an intrductory stats course are as follows:
+	*binomial distribution:
+		Variable counts the number of successes versus the number of fails
+	*Normal distribution
+		Variables whom's range of possible data plots out in a bell shape
+	*T-distribution
+		Variables whome's range of possible data plots out according to averages
+
+
+What we need to know about distrubtions
+====================================
+Things to decide:
+	* What is the dist of the variable ?
+	* Waht are the probablilities of the for it ?
+	* What is the long term average  for it ?
+	* What is the standard  deviation ?
+
+
+
+Summary Quick
+=====================================
+1. Collect Data:
+	*Survey
+	*Experiment
+2. Describe Data:
+	*Categorize
+	*Numericize
+3. Statistical Analysis of data
+
+
+Margin of error and conficence intervals
+======================================
+You often see statistics that try to estimate numbers pertaining to 
+and entire population; in fact, you see them almost every day in the form of seruvey results.
+
+* You cannot include everyone into you sample, there for you must include a decent cross section
+of a sizable sample.
+* Sample results vary from sample to sample, and thus an amount of variablility needs to be
+reported (but often isn't).
+* The statistic used to measure and report the level of precision in someone's sample results
+is called:
+	-The Margin of error
+* The "error" in "Margin of error" does not mean a mistake was made; it just means that because you didn't sample the entire population, a gap will exist between your results and the actual value you are trying to 
+estimate for the population.
+* The Confidence Interval is the exact oposite of the Margin of Error
+
+Example:
+	out of a sample of 1,200 people, 60% think that Nikki's tits are fucking perfect.
+	with a +/- 2% margin of error
+	* The margin of error is 2% of 1,200 people == 240 people  may or may not truly represent the sample size
+	* The range of the confidence interval = 60% +/- 2 %  = 58% confidence level
+
+
+Correlations, regression, and twopway tables
+==========================================
+One of the most common goals of research is to find lings between variables:
+Example:
+	Which lifestyle behaviros incdreased or decreased the risk of cancer?
+	What side effects are associated with this new drug ?
+	Can I lower my cholesterol by taking this new herbal supplement
+	Does spending a large amount of time on the Internet cause a person to gain weight ?
+
+
+
+
+
+
+
+	
+
+
+
+

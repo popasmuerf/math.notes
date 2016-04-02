@@ -1,0 +1,71 @@
+Vectors
+=================================
+Abstractly, vectors are objects that can be added together to form
+new vectors and may be mulitiplied to form now scalars.
+
+vA + vB = vC
+vA * vB = sC
+
+
+Concretely (for us) vectors are points in some finite-dimensional space.
+Although you might not think of your data as vectors, they are good way to represent 
+numberic data.
+
+For example, if youhave the heightes, weights, and asges of a large number of people,
+you treat your data as three-dimensional vectors. 
+
+If you're teaching a class with four exams, you can treet student grades as foure
+dimensional vectors
+(exam1, exam2, exam3, exam4)
+
+
+The simplest form-scratch appraoch is to represent vectors as
+lists of numbers.  A list of three numbers corresponds to a 
+vaector in three-dimensional space, and vice versa:
+
+
+height_weight_age = [70,170,40]
+
+grades = [95,
+	80,
+	75,
+	62]
+
+
+One problem with this approach is that we will want to peform 
+arithmetic on vectors.  Python lists are not vectors
+
+adding two vectors...which boils down to componoent addition.
+For example...if we are only using Python lists...
+
+v + w ====> [v[0] + w[0], v[1] + w[1],v[2] + w[2], v[3] + w[3],v[4] + w[4]......v[n] + w[n]] 
+
+
+Example...adding vectors :
+
+	v1 = [1,2]  v2 = [2,1]
+	v1 + v2 = v3[1+2,2+1]
+	v1 + v2 = v3[3,3]
+
+Implementation:
+def vector_add(v,w):
+	return [v_i + w_ifor v_i,w_i in zip(v,w)]
+def vector_substract(v,w):
+	return[v_i - w_i for v_i, w_ in zip(v,w)]
+def scalar_multiply(c,v):
+	"""c is a number, v is a vector"""
+def vector_sum(vectors):
+	"""sums all corresponding elements"""
+	result = vectors[0]
+	for vector in vectors[1:]:
+		result = vector_add(result,vector)
+	return result
+def vector_mean(vectors):
+	n = len(vectors)
+	return scalar_multiply(1/n, vector_sum(vectors))
+
+
+A less obvious tool is the dot product.  The dot product of two
+vectors is the sum of their componentwise product
+
+

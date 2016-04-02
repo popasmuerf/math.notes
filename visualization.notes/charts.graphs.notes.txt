@@ -1,0 +1,82 @@
+Linear Regression
+============================
+Linear regression beleongs to a family of regression algorithms.  The goal of regression is to find
+relationships and dependencies between variables.  It is modeling the relationship between
+a continuous scalar dependent variable "y"(also known as a label or target in 
+machine learning vanacular) and one or more (a D-dimensional vector) explanatory variavles(also 
+independent variables, input variables, features, observed data, observations, attributes, dimensions, data point..etc.) denoted "x" using a linear function.
+
+Linear Regression's analisys goal is to predict continuous target variable, whereas anouther area called classification  is predicting a label from a finite set.  The model for a mulitple regression
+which involves linear combination of input variables takes the form of
+
+	y = b0 + b1x1 + b2x2 + b3x3 +.......e[10]
+
+Linear regression belongs to a category of supervised learning algorithms.  It means we train the model on
+a set of labeled data(training data) and then use the model to predict labels or unlabled data(test data).  Many algorithms to calculate linear regressin exit.
+
+
+Linear regression MLib
+============================
+To explain how to use linear regression in MLib we will use a simple but descriptive
+example.  Assume we have a list of people and we want
+to model each person's probability to get a loan from a bank.  The probability is a number between:
+
+	0 -> 1
+
+and it is our label.  Each person is identified by :
+
+	rating
+	income
+	age
+
+These are the features  of a person.  A person has multiple features which means we are working
+with multiple linear regression
+
+Summary of given:
+============================
+Label: persons probability in range 0 -> 1
+feature: rating
+feature: income
+feature: age
+
+
+Our model should accurately estimate the effect of each feature on
+the label and help predidcting labels for people we don't yet
+know.  The definition of person
+in scala may look like this:
+
+	case class Person(rating: String, income: Double, age: Int)
+
+We need to initialize spark...
+------------------------------
+	val sc = new SparkContext(new SparkConf().setAppName("People linear regression").setMaster("local")
+
+
+
+Data prepocessiong
+------------------------------
+Now we need to transform our collection of people(Seq[Person])
+into a proper data representation for MLlib.  I have  split
+the transform itno mulitple function for easier unserstandability.  First, we need to get features:
+
+
+/** code **/
+def prepareFeatures(people: Seq[Person]):Seq[org.apache.spark.mllib.linalg.Vector] ={
+	val maxIncome = people map(_ income) max
+	val maxAge = people map(_ age) max
+	people map(p => Vectors dense(
+			if(p.rating == "A") 0.7 else if(p.rating == "B") 0.5 else 0.3,
+			p.income/maxIncome,
+			p.age.toDouble/maxAge))
+		) 
+	)
+}
+
+
+^^^ So the function turns each person in the collection into a vector of reatures.  Many Algorithms can work only double values and often also only values in a certain range.
+Actually MLlib's local vecotrs(org.apache.mllib.linalg.Vecotr) don't have type
+parameters and can only work with Double values.  We use dense vector, because all items
+in the vector have non-zero value.  Sparse vectors on the other hand can
+be use to efficently represent specific dta with lots of zero values.  By 
+
+

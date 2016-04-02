@@ -1,0 +1,76 @@
+Grabbing Spome Basic Statistical Jargon
+=======================================
+071033.007.0701
+Data
+----------------------------------------
+Data are the actual pieces of information that you collect through our study.
+
+Numberical data:
+	These data have meaning as a measurement such as blood pressure
+	distance, IQ, population
+Discreet data:
+	Items that can be counted; but take on values that can listed out....finite or
+	indifinte.
+	For example....the number of heads in a 100 coin flip takes on values
+	from 1 -> 100, but the number of flips needed to get 100 heads takes on the 
+	range of 100 to infinity.
+Continuous data:
+	data that represents measurements; their possible values cannot be counted and can only be
+	described using intervals on the real number line.
+	For example, the exact amount of gas purchased at the pump for cars with 20-gallon tansks represents nearly-continuus data from 0.00
+	gallons to 20.00 gallons, represented by the interal[0,20] inclusives(we can actually count these values by why 
+	would you want to ?)
+Categorical data:
+	Catgetorical data represents charactdristics such as a person's gender, marital status, hometown, or the
+	types of movies they like
+Ordinal data:
+	mixes umberical and categorical data.  the data falls into categories, but the 
+	numbes placed on the categories ahve meaning.
+	For example, rating a restuarant on a scal from 0 to 4 stars gives ordinal data.  Ordinal data are often treated as categorical, where the groups are ordered when graphs and chats are made.  I don't address them separately in this book
+DataSets:"
+	A data set is the collection of all the data taken from your sample.  For example, if you measured the weights of five packages, and those
+Population:
+	For virtually any question you may want to investigate about the world, you have to center your attentionf fon a particular groupd of
+	individuals(for example, a group of poeple, cities, animals, rock specimmens, exam scores, and so on)
+	For example:
+		Waht do Americans thnk about the president's foreign policy?
+		What precentage of planted crops in wisconsin did deer destory last year ?
+		What's the prognosis for breast cancer patients taking anew experimental drug?
+		What percentage of all cereal boxes get filled according to specification ?
+	This is basically identifying a specifc group of indiviculas being studied and within it...identify subgroups to be studied:
+		American peiople
+		lanted crops in Wisconsin
+		breast cancer patients
+		cereial boxes being filled
+	Note:
+		Make sure that the populations you sample are broad.  Narrow
+		group sampling will provide narrow results
+	Note:
+		Randomness of sampling within a general group keeps the experment honest
+
+Statistic
+=============================
+A statistic is a number that summaries the data collected from a sample.
+For example:
+	60% of US households own a car
+	The average price of a home
+	A median salary for the 1000 computer scientits in the sample was
+	The weight of babies in the 90th percentile
+
+Not all stats are correct or fair...remember this.....nothing guarantees
+that the statisti is scientific or legitimate.
+Figures don't lie...but liars figure...
+
+Parameters
+=============================
+The bounds placed upon the experiment...those involved in the experiment..
+their treatment...and the data used in the experiment....not to mention
+any minutae such as logictics for actually conducting the expriment....
+
+
+
+
+
+
+
+
