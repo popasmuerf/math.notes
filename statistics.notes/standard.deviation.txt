@@ -1,0 +1,119 @@
+https://www.mathsisfun.com/data/standard-normal-distribution.html
+https://www.mathsisfun.com/data/standard-deviation.html
+
+Normal Distribution
+===========================
+Data can be "distributed" (spread out) in different ways.
+* Left
+* right
+* jumbled
+
+However  there ar many cases where the data tends to be around 
+a enteral value with no bias left or right.
+...and it approaches close to a "Normal Distribution" that 
+graphs out to resembe a bell curve.
+
+
+
+Many things closely follow a Normal Distribution
+====================================================
+* heights of people
+* size of things produced by machines
+* errors in measurements
+* blood pressures
+* marks on a test
+
+
+The normal Distribution has thes attributes:
+	* mean = median = mode
+	* symmetry about the center
+	* 50% values less than the mean
+	* 50% values greater than the mean
+
+
+
+
+Standard Deviation
+===========================
+In statisticst, the standard deviation(SD or sigma)
+is a measure that is used to quantifty the amount of variation
+or dispersion of a set of data values.  A low standard deviation indicates
+that the data points tend to be close to the mean(also the expecte value).
+
+The standard Deviation is a measure of how spread out numbers are w/r
+to a normal distribution and how to calculate
+it.
+
+
+
+
+for example the mean of the following:
+
+mean = (1 + 2 + 3 -1 -2 -3)/6 = 0
+
+We calculate the standard deviation via calculating the individual deviations
+of each data point from the mean, and then square the result of each:
+
+Calculate individual deviations from
+the mean
+----------------------------
+(1 - 0 )^2 = 1
+(2  - 0)^2 = 4
+(3 - 0 )^2 = 9
+(-1  - 0)^2 = 1
+(-2  - 0)^2 = 4
+(-3  - 0)^2 = 9
+
+Calculate the variance (mean)
+of the individual deviations
+----------------------------
+
+(1 - 0 )^2 = 1 
+			 +
+(2  - 0)^2 = 4
+			 +
+(3 - 0 )^2 = 9
+			 +
+(-1 - 0)^2 = 1
+			 +
+(-2 - 0)^2 = 4
+			 +
+(-3 - 0)^2 = 9
+variance   = 28 /2 = 14
+
+The population standard deviation is equal to the square root of the variance
+
+ |-----
+ | 14    = 3.7416573867739413  
+V
+
+
+
+with a standard deviation of a random variable, statistical population,
+data set, or probablity distribution is the square root of its variance
+
+
+What is SD used for ?
+============================
+*Expression of variability of a population
+*Confidence of statistical conclusions(example margin of errors)
+*Calculating standard errors of margin or standard error of the mean
+* Calculation of risk in finance
+* Geometric interpretation
+
+
+Types of Studies
+==============================
+
+
+
+
+
+
+
+
+	
+
+
+
+
