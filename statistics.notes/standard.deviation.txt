@@ -212,9 +212,25 @@ variance of individual squares of differences:
 
 
 
+What we know by defualt via standard deviation(Generally):
+==================================================
+
+* 68% of values in a sd histogram will be within 1 standard deviation of the mean
+* 95% of values in a sd historgram will be within 2 standard deviations of the mean
+* 99.7 of values in a sd historgram will be within 3 stadard deviations of the mean
 
 
 
+Standard Scores
+================================================
+Teh nubmer of standard deviations from the man is also known as the
+	*standard score
+	*z-score
+	*sigma
+
+For example....if my height is 3 standard deviations from the mean....
+then my "z-score" is 3.  If my height is 1 standard deviations from the mean....
+then my "z-score" is 1.
 
 
 	
