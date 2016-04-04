@@ -1,5 +1,6 @@
 https://www.mathsisfun.com/data/standard-normal-distribution.html
 https://www.mathsisfun.com/data/standard-deviation.html
+https://www.mathsisfun.com/data/standard-deviation.html
 
 Normal Distribution
 ===========================
@@ -35,16 +36,81 @@ The normal Distribution has thes attributes:
 
 Standard Deviation
 ===========================
-In statisticst, the standard deviation(SD or sigma)
+In statistics, the standard deviation(SD or sigma)
 is a measure that is used to quantifty the amount of variation
 or dispersion of a set of data values.  A low standard deviation indicates
 that the data points tend to be close to the mean(also the expecte value).
+
+Another way of thinking about Standard Deviation...is that it is a measure of
+spread out numbers are.
+
+Standard Deviation is often represented in Mathematics as the greek letter "sigma"
 
 The standard Deviation is a measure of how spread out numbers are w/r
 to a normal distribution and how to calculate
 it.
 
 
+Variance
+==========================
+The variance is defined as:
+	The average of the squared differences from the Mean.
+
+How doe we calulate the variance ?
+--------------------------
+1. Work out the Mean
+2. For each value in the data set...subtract the mean from it and then square the sum:
+	(value - mean)^2
+3. Work out the mean of the set of new sums :
+	summation((value - mean)^2)   / toal_number_value_in_summation_set
+
+
+
+Example :   Find out the mean, the variance, 
+			and the standard deviation of the heights of dogs in 
+			in a particular set.
+---------------------------------------------------------------
+
+Given: Set of heights(in millimeters)
+*************************************
+600, 470, 170, 430, 300
+
+mean of all heights =  600 + 470 + 170 + 430 + 300 = sum / 5 = 394
+
+individual squares of the differences per element vs mean in set:
+
+	(600 - 394)^2 = 42436.0
+	(470 - 394)^2 = 5776.0
+	(170 - 394)^2 = 50176.0
+	(430 - 394)^2 = 1296.0
+	(300 - 394)^2 = 8836.0
+	42436.0 + 5776.0 + 50176.0 + 1296.0 + 8836.0
+
+variance of individual squares of differences:
+
+	(600 - 394)^2 = 42436.0
+					+
+	(470 - 394)^2 = 5776.0
+					+
+	(170 - 394)^2 = 50176.0
+					+
+	(430 - 394)^2 = 1296.0
+					+
+	(300 - 394)^2 = 8836.0
+    ----------------------
+	sum 		  = 108520.0
+	mean 		  = sum / 5  = 21704.0
+	variance      = 21704.0
+
+Standard deviance:
+	sd = sqrt(variance) 
+	sd = sqrt(21704.0)
+	sd = 147.32277488562318
+	sd = 147.3  (to one decimal place to the right)
+
+
+^^^ So using the Standard Deviation we have a "standard" way of knowning
+what is normal, and what is extra large or extra small.
 
 
 for example the mean of the following:
@@ -102,8 +168,47 @@ What is SD used for ?
 * Geometric interpretation
 
 
-Types of Studies
-==============================
+
+But.... what if there is a small change with Sample Data ?
+============================================================
+What if the data you are using is merely a sample of the the total
+population of some set ?
+
+When we have "N" data values that are:
+
+	* The population:  divide by N when calculating variance(like we did for the "heights example")
+	* A sample: divide by (N - 1) when calculating variance.
+
+So...modifying the example pertaining to heights earlier...to be a sub-set of a larger popluation
+set:
+
+variance of individual squares of differences:
+
+	(600 - 394)^2 = 42436.0
+					+
+	(470 - 394)^2 = 5776.0
+					+
+	(170 - 394)^2 = 50176.0
+					+
+	(430 - 394)^2 = 1296.0
+					+
+	(300 - 394)^2 = 8836.0
+    ----------------------
+	sum 		  = 108520.0
+	mean 		  = sum / 5  = 21704.0  --> here we modify : (pop_size - 1) -->  (5 - 1) = 4
+	mean 		  = sum / 4 = 
+	variance      = 27130.0
+
+
+ New standard deviance based on knowledge we are just dealing with a sample of a larger set:
+	sd = sqrt(variance) 
+	sd = sqrt(21704.0)
+	sd = 164.7118696390761
+	sd = 164.7  (to one decimal place to the right)
+
+
+^^^ Think of this as a correction when dealing with sample data.
+
 
 
 
