@@ -1,0 +1,275 @@
+https://www.mathsisfun.com/data/probability.html
+
+Probability
+===========================
+Many events can't be predicted with total certainty.
+The best we can say i how likely they are
+to happen, using the idea probablity.
+
+
+Probability may be expressed as :
+============================
+Probability of event happening =   (number of ways it can happen)/(Total number of outcomes)
+
+
+Tossing a coin
+===========================
+when a coin is tossed, there are two possible outcomes:
+	*Heads(H)
+		-or-
+	*Tails(T)
+
+The probability of the cooin landing H is = .5
+The probability of the coin landing  R is = .5
+
+
+
+Throwing Dice
+===========================
+When a single die is thrown, there are six possible outcomes:
+	1,2,3,4,6
+The probability of any one toss is 1/6
+
+
+
+Marbles in a Bag
+===========================
+There are 5 marbles in a bag:
+	4 blue
+	1 red
+What is the probability of the that a blue marble
+gets picked?
+	prob = 4/5 = .8  or 8/10
+
+
+
+
+However  there ar many cases where the data tends to be around 
+a enteral value with no bias left or right.
+...and it approaches close to a "Normal Distribution" that 
+graphs out to resembe a bell curve.
+
+
+
+Many things closely follow a Normal Distribution
+====================================================
+* heights of people
+* size of things produced by machines
+* errors in measurements
+* blood pressures
+* marks on a test
+
+
+The normal Distribution has thes attributes:
+	* mean = median = mode
+	* symmetry about the center
+	* 50% values less than the mean
+	* 50% values greater than the mean
+
+
+
+
+Standard Deviation
+===========================
+In statistics, the standard deviation(SD or sigma)
+is a measure that is used to quantifty the amount of variation
+or dispersion of a set of data values.  A low standard deviation indicates
+that the data points tend to be close to the mean(also the expecte value).
+
+Another way of thinking about Standard Deviation...is that it is a measure of
+spread out numbers are.
+
+Standard Deviation is often represented in Mathematics as the greek letter "sigma"
+
+The standard Deviation is a measure of how spread out numbers are w/r
+to a normal distribution and how to calculate
+it.
+
+
+Variance
+==========================
+The variance is defined as:
+	The average of the squared differences from the Mean.
+
+How doe we calulate the variance ?
+--------------------------
+1. Work out the Mean
+2. For each value in the data set...subtract the mean from it and then square the sum:
+	(value - mean)^2
+3. Work out the mean of the set of new sums :
+	summation((value - mean)^2)   / toal_number_value_in_summation_set
+
+
+
+Example :   Find out the mean, the variance, 
+			and the standard deviation of the heights of dogs in 
+			in a particular set.
+---------------------------------------------------------------
+
+Given: Set of heights(in millimeters)
+*************************************
+600, 470, 170, 430, 300
+
+mean of all heights =  600 + 470 + 170 + 430 + 300 = sum / 5 = 394
+
+individual squares of the differences per element vs mean in set:
+
+	(600 - 394)^2 = 42436.0
+	(470 - 394)^2 = 5776.0
+	(170 - 394)^2 = 50176.0
+	(430 - 394)^2 = 1296.0
+	(300 - 394)^2 = 8836.0
+	42436.0 + 5776.0 + 50176.0 + 1296.0 + 8836.0
+
+variance of individual squares of differences:
+
+	(600 - 394)^2 = 42436.0
+					+
+	(470 - 394)^2 = 5776.0
+					+
+	(170 - 394)^2 = 50176.0
+					+
+	(430 - 394)^2 = 1296.0
+					+
+	(300 - 394)^2 = 8836.0
+    ----------------------
+	sum 		  = 108520.0
+	mean 		  = sum / 5  = 21704.0
+	variance      = 21704.0
+
+Standard deviance:
+	sd = sqrt(variance) 
+	sd = sqrt(21704.0)
+	sd = 147.32277488562318
+	sd = 147.3  (to one decimal place to the right)
+
+
+^^^ So using the Standard Deviation we have a "standard" way of knowning
+what is normal, and what is extra large or extra small.
+
+
+for example the mean of the following:
+
+mean = (1 + 2 + 3 -1 -2 -3)/6 = 0
+
+We calculate the standard deviation via calculating the individual deviations
+of each data point from the mean, and then square the result of each:
+
+Calculate individual deviations from
+the mean
+----------------------------
+(1 - 0 )^2 = 1
+(2  - 0)^2 = 4
+(3 - 0 )^2 = 9
+(-1  - 0)^2 = 1
+(-2  - 0)^2 = 4
+(-3  - 0)^2 = 9
+
+Calculate the variance (mean)
+of the individual deviations
+----------------------------
+
+(1 - 0 )^2 = 1 
+			 +
+(2  - 0)^2 = 4
+			 +
+(3 - 0 )^2 = 9
+			 +
+(-1 - 0)^2 = 1
+			 +
+(-2 - 0)^2 = 4
+			 +
+(-3 - 0)^2 = 9
+variance   = 28 /2 = 14
+
+The population standard deviation is equal to the square root of the variance
+
+ |-----
+ | 14    = 3.7416573867739413  
+V
+
+
+
+with a standard deviation of a random variable, statistical population,
+data set, or probablity distribution is the square root of its variance
+
+
+What is SD used for ?
+============================
+*Expression of variability of a population
+*Confidence of statistical conclusions(example margin of errors)
+*Calculating standard errors of margin or standard error of the mean
+* Calculation of risk in finance
+* Geometric interpretation
+
+
+
+But.... what if there is a small change with Sample Data ?
+============================================================
+What if the data you are using is merely a sample of the the total
+population of some set ?
+
+When we have "N" data values that are:
+
+	* The population:  divide by N when calculating variance(like we did for the "heights example")
+	* A sample: divide by (N - 1) when calculating variance.
+
+So...modifying the example pertaining to heights earlier...to be a sub-set of a larger popluation
+set:
+
+variance of individual squares of differences:
+
+	(600 - 394)^2 = 42436.0
+					+
+	(470 - 394)^2 = 5776.0
+					+
+	(170 - 394)^2 = 50176.0
+					+
+	(430 - 394)^2 = 1296.0
+					+
+	(300 - 394)^2 = 8836.0
+    ----------------------
+	sum 		  = 108520.0
+	mean 		  = sum / 5  = 21704.0  --> here we modify : (pop_size - 1) -->  (5 - 1) = 4
+	mean 		  = sum / 4 = 
+	variance      = 27130.0
+
+
+ New standard deviance based on knowledge we are just dealing with a sample of a larger set:
+	sd = sqrt(variance) 
+	sd = sqrt(21704.0)
+	sd = 164.7118696390761
+	sd = 164.7  (to one decimal place to the right)
+
+
+^^^ Think of this as a correction when dealing with sample data.
+
+
+
+
+What we know by defualt via standard deviation(Generally):
+==================================================
+
+* 68% of values in a sd histogram will be within 1 standard deviation of the mean
+* 95% of values in a sd historgram will be within 2 standard deviations of the mean
+* 99.7 of values in a sd historgram will be within 3 stadard deviations of the mean
+
+
+
+Standard Scores
+================================================
+Teh nubmer of standard deviations from the man is also known as the
+	*standard score
+	*z-score
+	*sigma
+
+For example....if my height is 3 standard deviations from the mean....
+then my "z-score" is 3.  If my height is 1 standard deviations from the mean....
+then my "z-score" is 1.
+
+
+	
+
+
+
+
