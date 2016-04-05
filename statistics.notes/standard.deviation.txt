@@ -233,6 +233,32 @@ then my "z-score" is 3.  If my height is 1 standard deviations from the mean....
 then my "z-score" is 1.
 
 
+
+
+Questions 1
+===============================================
+What is the standard deviation for the nunbers:
+	75.0, 83.0, 96.0, 100.0, 121.0 and 125.0?
+
+
+	sum = 75.0 + 83.0 + 96.0 + 100.0 + 121.0 + 125.0
+	mean = sum / 6 
+	(75.0 - 100)^2 = 625.0
+					+
+	(83.0 - 100)^2 = 289.0
+					+
+	(96.0 - 100)^2 = 16.0
+					+
+	(100.0 - 100)^2 = 0.0
+					+
+	(121.0 - 100)^2 = 441.0
+					+
+	(125.0 - 100)^2 = 625.0
+
+	variance = (625.0 + 289.0 + 16.0  + 0.0  + 441.0 + 625.0 ) / 6 = 332.6666666666667 ~= 332.7
+
+	standard_deviation = math.sqrt(mean_v) = 18.240065789355036 = 18.24
+
 	
 
 
