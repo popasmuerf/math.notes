@@ -1,4 +1,6 @@
 https://www.mathsisfun.com/algebra/vectors.html
+https://www.mathsisfun.com/algebra/vectors-dot-product.html
+https://www.mathsisfun.com/algebra/vectors-cross-product.html
 
 Introduction to Vectors
 ============================================
@@ -7,6 +9,37 @@ Introduction to Vectors
 *	Scalars are merely values of size or magnitude.  They have no direction.
 *   The speed and direction aka as velocity is an example of a vector.
 *	Today's temperature is an example of a scalar
+
+
+							---------
+	------------------->   |Direction|
+							---------
+	|****magnitude****|
+
+
+^^^^ The length of the line shows it's magnitude 
+
+
+When we add vectors...we generate a new vector...with increased or decreased
+magnitudes.....
+
+
+
+Vector multiplication
+=========================================
+When we multiply a vector by a scalar it is called "scaling" a vector, because we
+change how big or small the vector is.
+
+m = (7,3) * 3  = m_1 = (21,9)
+
+Scaling is NOT the same as vector vs vector multiplication.
+
+
+
+Vector vs Vector multipliation (Dot Product)
+===========================================
+*  The dot product results in a scalar
+*	The cross product results in a vector
 
 
 
