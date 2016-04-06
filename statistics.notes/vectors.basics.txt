@@ -1,0 +1,21 @@
+https://www.mathsisfun.com/algebra/vectors.html
+
+Introduction to Vectors
+============================================
+
+*	Vectors have magnitude(size) and direction.
+*	Scalars are merely values of size or magnitude.  They have no direction.
+*   The speed and direction aka as velocity is an example of a vector.
+*	Today's temperature is an example of a scalar
+
+
+
+
+
+
+
+	
+
+
+
+
