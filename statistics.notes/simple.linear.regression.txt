@@ -1,0 +1,41 @@
+Simple linear regression
+===================================
+y = a0 + a1*x  
+
+
+^^^ Assuming that n-data, P1,P2....Pn  in 2D space with 
+xy-axis are given in the above formula...Simple linear
+regression is a method to identify the following model of this
+data set where:
+
+	a0 --> regression coefficients
+	a1 --> regression coefficients
+	y --> response
+	x --> regressor
+
+
+Approximation of the data distribution using a straight line.
+
+	yih  = a0 + a1*xi 
+
+
+^^^ where xi is the x-coordinate of point Pi.  The error ei
+between the y-coordinate of point Pi and the estimated value 
+yi  is defined as follows:
+
+	ei = yi - yih
+
+
+	The identification of th e model is to obtain a0 and a1 which is to 
+	minimize the error E given by :
+
+		E = summation(e2)  from i=1 --> n
+		E = summation(a0 + a1*xi )  from i=1 --> n
+
+
+	The coefficients a0 and a1 satisfy the following equations:
+
+	dE/da0 = 0
+	dE/da1 = 0
+
+
